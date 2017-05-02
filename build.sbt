@@ -50,8 +50,7 @@ lazy val linx =
       name                := "linx",
       description         := "A simple and typesafe link representation",
       homepage            := Some(url("http://github.com/arktekk/linx")),
-      licenses            := Seq("Apache 2" -> url("http://www.apache.org/licenses/LICENSE-2.0")),
-      libraryDependencies += "org.scalatest" %%% "scalatest" % "3.0.1" % Test
+      licenses            := Seq("Apache 2" -> url("http://www.apache.org/licenses/LICENSE-2.0"))
     ).configureAll(publishSettings)
 
 lazy val linxJVM = linx.jvm
